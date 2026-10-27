@@ -1,0 +1,38 @@
+[
+  {
+    "pergunta": "Você recebeu uma mensagem dizendo que ganhou um prêmio, mas precisa pagar uma taxa para recebê-lo. O que deve fazer?",
+    "alternativas": [
+      "Pagar a taxa imediatamente",
+      "Enviar seus dados pessoais",
+      "Não pagar e verificar se é um golpe",
+      "Encaminhar a mensagem para todos"
+    ],
+    "resposta": 2,
+    "explicacao": "Mensagens que exigem pagamento antecipado para liberar prêmios podem ser golpes. Não pague nem compartilhe dados sem verificar a origem.",
+    "fonte": "https://www.gov.br"
+  },
+  {
+    "pergunta": "Qual é uma boa atitude ao criar uma senha para uma conta na internet?",
+    "alternativas": [
+      "Usar 123456 em todas as contas",
+      "Compartilhar a senha com desconhecidos",
+      "Usar uma senha forte e não a compartilhar",
+      "Escrever a senha em uma publicação pública"
+    ],
+    "resposta": 2,
+    "explicacao": "Uma senha forte e mantida em segredo ajuda a proteger suas contas. Evite reutilizar senhas fáceis de adivinhar.",
+    "fonte": "https://www.gov.br/governodigital/pt-br/seguranca-e-protecao-de-dados"
+  },
+  {
+    "pergunta": "Você quer encontrar o horário de funcionamento de um posto de saúde. O que pode fazer?",
+    "alternativas": [
+      "Pesquisar o nome do posto em um buscador e conferir uma fonte oficial",
+      "Informar a senha do banco em um site desconhecido",
+      "Clicar em qualquer anúncio que aparecer",
+      "Enviar seu documento para um desconhecido que ofereça ajuda"
+    ],
+    "resposta": 0,
+    "explicacao": "Um buscador pode ajudar a encontrar informações, mas confira se o resultado é de uma fonte oficial e se os dados estão atualizados.",
+    "fonte": "https://www.gov.br"
+  }
+]
