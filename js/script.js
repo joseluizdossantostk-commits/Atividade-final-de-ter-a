@@ -244,4 +244,4 @@
         ? "Não foi possível carregar as perguntas. Abra o quiz pelo site publicado ou por um servidor local (por exemplo, a extensão Live Server do VS Code), e não direto do arquivo."
         : "Não foi possível carregar as perguntas agora. Atualize a página e tente novamente.");
     });
-});
+})();
