@@ -60,8 +60,6 @@ No GitHub, abra **Settings → Pages**, selecione a branch `main` e a pasta `/ (
 =======
 
 ## CP1
-Esta entrega contém a página inicial, a estrutura visual da tela de jogo, o CSS base acessível e três perguntas-modelo. A lógica completa do quiz será desenvolvida no CP2.
-
 ## Divisão sugerida de tarefas
 - Página inicial: revisar `index.html`.
 - Tela do jogo: revisar `jogo.html`.
