@@ -1,3 +1,4 @@
+
 # Conecta 60+ — TechQuiz (CP1 e CP2)
 
 ## Tema
@@ -38,6 +39,7 @@ Apresentar orientações simples sobre comunicação digital, pesquisas na inter
 
 ## Como executar localmente
 1. Baixe ou clone o repositório.
+<<<<<<< HEAD
 2. Abra a pasta no VS Code e use a extensão **Live Server** (ou rode `python3 -m http.server` na pasta e acesse `http://localhost:8000`).
 3. Não abra `index.html`/`jogo.html` direto como `file://`: o `fetch` do `perguntas.json` é bloqueado e o quiz mostra um aviso.
 
@@ -54,6 +56,8 @@ No GitHub, abra **Settings → Pages**, selecione a branch `main` e a pasta `/ (
 - Fluxo: nome do jogador → uma pergunta por vez → feedback (acerto/erro, explicação e fonte) → pontuação final e ranking → "Jogar novamente" sem recarregar.
 - Ranking salvo em `sessionStorage` (chave `ranking`), mantido entre partidas na mesma aba. Veja em DevTools → Application → Session Storage.
 - Acessibilidade: navegação só com Tab/Enter, foco visível, feedback com texto, ícone e borda (não só cor), sem rolagem horizontal no celular.
+
+=======
 
 ## CP1
 Esta entrega contém a página inicial, a estrutura visual da tela de jogo, o CSS base acessível e três perguntas-modelo. A lógica completa do quiz será desenvolvida no CP2.
