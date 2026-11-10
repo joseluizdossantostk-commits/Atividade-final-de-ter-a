@@ -28,31 +28,57 @@
     </section>
 
 
-    <div id="quiz-app" class="quiz-app"></div>
+    <div id="quiz-app" class="quiz-app">
+      <p id="load-error" class="error-box" role="alert" hidden></p>
 
-    <!-- Estrutura visual do CP1: a lógica completa será desenvolvida no CP2. -->
-    <section class="quiz-card" aria-labelledby="question-title">
-      <div class="quiz-topline">
-        <span class="question-number">Exemplo de pergunta</span>
-        <span class="topic-label">Segurança digital</span>
-      </div>
-      <h2 id="question-title">Você recebeu uma mensagem dizendo que ganhou um prêmio, mas precisa pagar uma taxa para recebê-lo. O que deve fazer?</h2>
-      <div class="answer-list" role="group" aria-label="Alternativas de exemplo">
-        <button class="answer-option" type="button" aria-pressed="false">Pagar a taxa imediatamente</button>
-        <button class="answer-option" type="button" aria-pressed="false">Enviar seus dados pessoais</button>
-        <button class="answer-option" type="button" aria-pressed="false">Não pagar e verificar se é um golpe</button>
-        <button class="answer-option" type="button" aria-pressed="false">Encaminhar a mensagem para todos</button>
-      </div>
-      <div class="feedback-box" aria-live="polite">
-        <strong>Área de orientação</strong>
-        <p>Aqui aparecerá uma explicação simples depois que a pessoa responder. Nesta versão inicial, as alternativas são apenas parte da estrutura visual.</p>
-      </div>
-      <div class="quiz-actions">
-        <a class="button button-secondary" href="index.html">Voltar ao início</a>
-        <span class="helper">Versão inicial • CP1</span>
-      </div>
-    </section>
->>>>>>> 3c0ada2d03856ae17e416d6c9ebb0a08bbfb4524
+      <!-- 1. Início: nome do jogador -->
+      <section id="tela-inicio" class="quiz-card" aria-labelledby="titulo-inicio">
+        <h2 id="titulo-inicio" tabindex="-1">Antes de começar</h2>
+        <form id="form-nome" novalidate>
+          <label for="campo-nome" class="field-label">Qual é o seu nome?</label>
+          <input id="campo-nome" name="nome" type="text" class="text-input" maxlength="30" autocomplete="given-name" aria-describedby="nome-erro nome-ajuda" required>
+          <p id="nome-ajuda" class="helper">Seu nome aparecerá no ranking desta sessão.</p>
+          <p id="nome-erro" class="field-error" role="alert"></p>
+          <button type="submit" class="button button-primary">Jogar <span aria-hidden="true">→</span></button>
+        </form>
+      </section>
+
+      <!-- 2 e 3. Pergunta e feedback -->
+      <section id="tela-pergunta" class="quiz-card" aria-labelledby="question-title" hidden>
+        <div class="quiz-topline">
+          <span id="question-number" class="question-number"></span>
+          <span id="score-live" class="topic-label"></span>
+        </div>
+        <h2 id="question-title" tabindex="-1"></h2>
+        <div id="answer-list" class="answer-list" role="group" aria-labelledby="question-title"></div>
+        <div id="feedback" class="feedback-box" aria-live="polite" hidden></div>
+        <div class="quiz-actions">
+          <a class="button button-secondary" href="index.html">Voltar ao início</a>
+          <button id="btn-proxima" type="button" class="button button-primary" hidden></button>
+        </div>
+      </section>
+
+      <!-- 4. Fim: pontuação, ranking e replay -->
+      <section id="tela-fim" class="quiz-card" aria-labelledby="titulo-fim" hidden>
+        <h2 id="titulo-fim" tabindex="-1">Fim do quiz</h2>
+        <p id="resumo-final" class="final-score"></p>
+        <h3>Ranking desta sessão</h3>
+        <div class="table-wrap">
+          <table class="ranking-table">
+            <caption class="sr-only">Ranking das partidas jogadas nesta aba, da maior para a menor pontuação</caption>
+            <thead>
+              <tr><th scope="col">Posição</th><th scope="col">Jogador</th><th scope="col">Pontos</th></tr>
+            </thead>
+            <tbody id="ranking-corpo"></tbody>
+          </table>
+        </div>
+        <div class="quiz-actions">
+          <button id="btn-trocar" type="button" class="button button-secondary">Trocar jogador</button>
+          <button id="btn-replay" type="button" class="button button-primary">Jogar novamente</button>
+        </div>
+      </section>
+    </div>
+
     <p class="accessibility-note">Dica: você pode usar a tecla Tab para navegar pelos botões. O contorno destacado mostra qual elemento está selecionado.</p>
   </main>
 
