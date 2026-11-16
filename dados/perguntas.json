@@ -1,0 +1,146 @@
+[
+  {
+    "pergunta": "Você recebeu uma mensagem dizendo que ganhou um prêmio, mas precisa pagar uma taxa para recebê-lo. O que deve fazer?",
+    "alternativas": [
+      "Pagar a taxa imediatamente",
+      "Enviar seus dados pessoais",
+      "Não pagar e verificar se é um golpe",
+      "Encaminhar a mensagem para todos"
+    ],
+    "resposta": 2,
+    "explicacao": "Mensagens que exigem pagamento antecipado para liberar prêmios podem ser golpes. Desconfie de ofertas boas demais para ser verdade e não pague nem compartilhe dados sem verificar a origem.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Qual é uma boa atitude ao criar uma senha para uma conta na internet?",
+    "alternativas": [
+      "Usar 123456 em todas as contas",
+      "Compartilhar a senha com desconhecidos",
+      "Usar uma senha forte e não a compartilhar",
+      "Escrever a senha em uma publicação pública"
+    ],
+    "resposta": 2,
+    "explicacao": "Uma senha forte e mantida em segredo ajuda a proteger suas contas. Evite dados pessoais e sequências fáceis de adivinhar, e nunca passe sua senha para ninguém.",
+    "fonte": "https://cartilha.cert.br/guardiao/fasciculo-senhas-egc-saida-grafica.pdf"
+  },
+  {
+    "pergunta": "Você quer encontrar o horário de funcionamento de um posto de saúde. O que pode fazer?",
+    "alternativas": [
+      "Pesquisar o nome do posto em um buscador e conferir uma fonte oficial",
+      "Informar a senha do banco em um site desconhecido",
+      "Clicar em qualquer anúncio que aparecer",
+      "Enviar seu documento para um desconhecido que ofereça ajuda"
+    ],
+    "resposta": 0,
+    "explicacao": "Um buscador pode ajudar a encontrar informações, mas confirme nos canais oficiais da instituição e veja se os dados estão atualizados.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Alguém liga dizendo ser do seu banco e pede o código que chegou por SMS no seu celular. O que você deve fazer?",
+    "alternativas": [
+      "Passar o código para resolver o problema mais rápido",
+      "Não passar o código para ninguém e procurar o banco pelo canal oficial",
+      "Passar apenas os primeiros números do código",
+      "Pedir que a pessoa mande o código de volta por mensagem"
+    ],
+    "resposta": 1,
+    "explicacao": "Códigos de verificação são pessoais. Nunca os informe a ninguém, nem a quem diz ser da empresa. Se tiver dúvida, desligue e fale com o banco pelo telefone ou aplicativo oficial.",
+    "fonte": "https://cartilha.cert.br/guardiao/fasciculo-verificacao-duas-etapas-egc-saida-grafica.pdf"
+  },
+  {
+    "pergunta": "Um número desconhecido, com a foto do seu filho, diz: \"Troquei de celular, salve este número e faça um Pix urgente para mim\". Qual é a melhor atitude?",
+    "alternativas": [
+      "Fazer o Pix, pois é um pedido do seu filho",
+      "Salvar o número novo e enviar o dinheiro depois",
+      "Responder pedindo o CPF e a data de nascimento",
+      "Ligar para o seu filho pelo número que você já conhece antes de fazer qualquer coisa"
+    ],
+    "resposta": 3,
+    "explicacao": "Golpistas usam fotos das redes sociais para fingir ser alguém da família. Confirme com a pessoa pelo contato de sempre e desconfie de qualquer pedido de dinheiro com urgência.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Você recebeu uma mensagem com um link dizendo que sua conta bancária será bloqueada hoje. O que fazer?",
+    "alternativas": [
+      "Não clicar no link e acessar o aplicativo ou o site do banco digitando o endereço, ou ligar para o banco",
+      "Clicar rápido no link para evitar o bloqueio",
+      "Responder à mensagem pedindo mais detalhes",
+      "Encaminhar o link para os amigos conferirem"
+    ],
+    "resposta": 0,
+    "explicacao": "Mensagens com urgência e ameaça são um sinal de golpe. Na dúvida, não acesse o link: digite o endereço oficial você mesmo ou use o aplicativo do banco.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Por que não é recomendado usar a mesma senha em todas as contas?",
+    "alternativas": [
+      "Porque o celular fica mais lento",
+      "Porque os sites não aceitam senhas repetidas",
+      "Porque dá mais trabalho para digitar",
+      "Porque, se uma senha vazar, golpistas podem entrar em todas as outras contas"
+    ],
+    "resposta": 3,
+    "explicacao": "Quando uma mesma senha é usada em vários serviços, descobrir uma só já abre todas as portas. Use senhas diferentes, principalmente nas contas mais importantes.",
+    "fonte": "https://cartilha.cert.br/guardiao/fasciculo-senhas-egc-saida-grafica.pdf"
+  },
+  {
+    "pergunta": "Você instalou um roteador novo de Wi-Fi em casa. O que é importante fazer?",
+    "alternativas": [
+      "Manter a senha que veio de fábrica",
+      "Trocar a senha de fábrica do aparelho e a senha do Wi-Fi por senhas fortes",
+      "Deixar o Wi-Fi sem senha para facilitar o acesso",
+      "Usar seu nome e endereço como nome da rede"
+    ],
+    "resposta": 1,
+    "explicacao": "Senhas de fábrica podem ser descobertas com facilidade. Troque a senha do aparelho e a do Wi-Fi e evite colocar dados pessoais no nome da rede.",
+    "fonte": "https://cartilha.cert.br/guardiao/fasciculo-redes-egc.pdf"
+  },
+  {
+    "pergunta": "Onde é mais seguro instalar um novo aplicativo no celular?",
+    "alternativas": [
+      "Em um link recebido por mensagem",
+      "Em um site desconhecido que promete a versão grátis",
+      "Na loja oficial do celular, como Google Play ou App Store",
+      "Em qualquer endereço enviado por um desconhecido"
+    ],
+    "resposta": 2,
+    "explicacao": "Aplicativos enviados por link ou baixados de sites desconhecidos podem conter golpes. Instale apenas pelas lojas oficiais.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Você vê um QR Code colado em um poste prometendo descontos. Qual é o cuidado correto?",
+    "alternativas": [
+      "Tratar o QR Code com a mesma cautela de um link, pois o adesivo pode ter sido colocado por golpistas",
+      "Ler o código e preencher seus dados para ganhar o desconto",
+      "Confiar, porque todo QR Code é seguro",
+      "Compartilhar o código com seus contatos"
+    ],
+    "resposta": 0,
+    "explicacao": "Um QR Code abre um link, e golpistas podem colar adesivos sobre os códigos originais. Em caso de dúvida, não leia o código.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  },
+  {
+    "pergunta": "Golpistas copiam a foto de perfil do WhatsApp para pedir dinheiro aos seus contatos. O que ajuda a se proteger?",
+    "alternativas": [
+      "Deixar a foto de perfil visível para todas as pessoas",
+      "Trocar o chip do celular",
+      "Desinstalar o WhatsApp",
+      "Nas configurações de privacidade, deixar a foto de perfil visível apenas para \"Meus contatos\""
+    ],
+    "resposta": 3,
+    "explicacao": "Limitar quem vê sua foto de perfil dificulta que golpistas a copiem. Se alguém se passar por você, avise seus contatos e denuncie o número falso.",
+    "fonte": "https://agenciagov.ebc.com.br/noticias/202510/golpe-do-whatsapp-falso-veja-as-orientacoes-da-anatel-para-denunciar-e-se-proteger"
+  },
+  {
+    "pergunta": "Antes de pagar uma compra combinada por mensagem, o que vale conferir?",
+    "alternativas": [
+      "Se o vendedor responde rápido",
+      "Se o nome de quem vai receber o pagamento e o CNPJ combinam com os da loja",
+      "Se as fotos do produto são bonitas",
+      "Apenas se o preço é o mais baixo"
+    ],
+    "resposta": 1,
+    "explicacao": "Antes de pagar, confira o nome e o CNPJ de quem recebe, o valor e os dados do pagamento. Procure o perfil da loja no site oficial dela para saber se é verdadeiro.",
+    "fonte": "https://cartilha.cert.br/fasciculos/golpes-evite-fraudes/fasciculo-golpes-evite-fraudes-grafica.pdf"
+  }
+]
