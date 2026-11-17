@@ -4,7 +4,7 @@ Quiz educativo sobre uso da internet e segurança digital, desenvolvido para aju
 
 Trabalho em grupo da disciplina **Desenvolvimento Front-end para Web** — CP3 (entrega final).
 
-- **Site publicado:** PREENCHER com o link HTTPS do GitHub Pages.
+- **Site publicado:** https://joseluizdossantostk-commits.github.io/Atividade-final-de-ter-a/
 - **Repositório:** https://github.com/joseluizdossantostk-commits/Atividade-final-de-ter-a
 - **Versão da entrega:** `cp3-entrega`.
 
@@ -30,7 +30,7 @@ O projeto aborda habilidades digitais e segurança na internet para pessoas idos
 - JSON
 - Git e GitHub Pages
 
-## Regras do quiz
+## funcionalidade do quiz
 
 1. Digite seu nome para começar.
 2. O quiz apresenta 12 perguntas, uma por vez, com quatro alternativas.
@@ -104,15 +104,6 @@ O projeto apresenta recursos como:
 - Formulário com identificação dos campos.
 - Layout adaptado para dispositivos móveis.
 
-## Publicação
-
-Para publicar pelo GitHub Pages:
-
-1. Acesse **Settings → Pages** no repositório.
-2. Selecione a branch `main`.
-3. Escolha a pasta `/ (root)`.
-4. Salve e aguarde a publicação.
-5. Teste o endereço HTTPS publicado.
 
 ## Fontes de referência
 
