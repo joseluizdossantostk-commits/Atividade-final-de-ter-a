@@ -17,6 +17,7 @@ O projeto aborda habilidades digitais e segurança na internet para pessoas idos
 - Felipe Gomes Figueiredo dos Santos
 - Igor da Silva Pedrosa
 - José Luiz dos Santos
+- Kawã Magno dos Santos
 - Leonan Vieira Alves
 - Luiz Henrique Domingues dos Santos
 - Pedro Henrique Rodrigues Beltran
