@@ -1,5 +1,4 @@
-// Conecta 60+ | CP2: lógica do quiz (JSON, fluxo, pontuação, ranking e acessibilidade).
-// O script é carregado também em index.html, então só roda quando o quiz existe na página.
+
 (() => {
   const app = document.getElementById("quiz-app");
   if (!app) return;
@@ -13,7 +12,6 @@
 
   const estado = { perguntas: [], nome: "", indice: 0, pontos: 0, respondida: false };
 
-  // ---------- Ranking (sessionStorage) ----------
   function lerRanking() {
     try {
       const dados = JSON.parse(sessionStorage.getItem(CHAVE_RANKING));
@@ -27,11 +25,10 @@
     try {
       sessionStorage.setItem(CHAVE_RANKING, JSON.stringify(ranking));
     } catch (erro) {
-      // Sem sessionStorage (modo restrito): o ranking vale só até a página fechar.
     }
   }
 
-  // ---------- Telas ----------
+
   function mostrarTela(nome, focoId) {
     Object.entries(telas).forEach(([chave, el]) => { el.hidden = chave !== nome; });
     const alvo = $(focoId);
@@ -44,8 +41,6 @@
     caixa.hidden = false;
     Object.values(telas).forEach((el) => { el.hidden = true; });
   }
-
-  // ---------- Carregamento do JSON ----------
   function perguntaValida(p) {
     return p && typeof p.pergunta === "string" && Array.isArray(p.alternativas)
       && p.alternativas.length >= 2 && Number.isInteger(p.resposta)
@@ -66,7 +61,7 @@
     return dados;
   }
 
-  // ---------- Fluxo do jogo ----------
+ 
   function iniciarPartida() {
     estado.indice = 0;
     estado.pontos = 0;
@@ -124,11 +119,11 @@
     if (acertou) estado.pontos += 1;
     $("score-live").textContent = "Pontos: " + estado.pontos;
 
-    // Marca as alternativas com texto + borda (a cor nunca é a única pista).
+
     document.querySelectorAll(".answer-option").forEach((botao) => {
       const i = Number(botao.dataset.indice);
       const marca = botao.querySelector(".option-mark");
-      // Desabilita de verdade para impedir novas escolhas por mouse ou teclado.
+
       botao.disabled = true;
       if (i === p.resposta) {
         botao.classList.add("is-correct");
@@ -139,7 +134,7 @@
       }
     });
 
-    // Feedback textual: resultado, explicação e fonte.
+
     const feedback = $("feedback");
     feedback.className = "feedback-box " + (acertou ? "is-correct" : "is-wrong");
 
@@ -166,7 +161,7 @@
     const ultima = estado.indice === estado.perguntas.length - 1;
     proxima.textContent = ultima ? "Ver resultado" : "Próxima pergunta →";
     proxima.hidden = false;
-    proxima.focus(); // teclado: Enter já avança
+    proxima.focus(); 
   }
 
   function avancar() {
@@ -182,7 +177,7 @@
     const ranking = lerRanking();
     const entrada = { nome: estado.nome, pontos: estado.pontos, total: estado.perguntas.length, id: Date.now() + "-" + ranking.length };
     ranking.push(entrada);
-    // Maior pontuação primeiro; em empate, quem jogou antes fica na frente (sort é estável).
+
     ranking.sort((a, b) => b.pontos - a.pontos);
     salvarRanking(ranking);
 
@@ -207,7 +202,7 @@
     mostrarTela("fim", "titulo-fim");
   }
 
-  // ---------- Eventos ----------
+
   $("form-nome").addEventListener("submit", (evento) => {
     evento.preventDefault();
     const campo = $("campo-nome");
@@ -231,8 +226,7 @@
     mostrarTela("inicio", "campo-nome");
   });
 
-  // ---------- Inicialização ----------
-  // Telas ficam ocultas até o JSON carregar, para ninguém jogar sem perguntas.
+
   Object.values(telas).forEach((el) => { el.hidden = true; });
   carregarPerguntas()
     .then((dados) => {
